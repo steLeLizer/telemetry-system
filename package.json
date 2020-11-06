@@ -1,0 +1,24 @@
+{
+  "name": "telemetry-system",
+  "version": "1.0.0",
+  "description": "A microservice which consumes all messages from Kafka and writes them to Elasticsearch",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steLeLizer/telemetry-system.git"
+  },
+  "author": "Stefan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steLeLizer/telemetry-system/issues"
+  },
+  "homepage": "https://github.com/steLeLizer/telemetry-system#readme",
+  "dependencies": {
+    "elasticsearch": "^16.7.1",
+    "kafkajs": "^1.14.0"
+  }
+}
