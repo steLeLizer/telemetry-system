@@ -14,7 +14,7 @@ const kafka = new Kafka({
 //
 // const consumer = kafka.consumer({groupId: `${groupNamePrefixGenerator}test-group`});
 
-const consumer = kafka.consumer({groupId: 'telemetry2-group'});
+const consumer = kafka.consumer({groupId: 'telemetry-group'});
 
 // I assume the Elasticsearch index is created already under the name 'bsocial'
 /*
